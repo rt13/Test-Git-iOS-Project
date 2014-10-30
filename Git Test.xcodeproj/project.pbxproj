@@ -14,6 +14,7 @@
 		D125451D1A02D7550065D300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D125451C1A02D7550065D300 /* Images.xcassets */; };
 		D12545201A02D7550065D300 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D125451E1A02D7550065D300 /* LaunchScreen.xib */; };
 		D125452C1A02D7550065D300 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D125452B1A02D7550065D300 /* Git_TestTests.m */; };
+		D12545371A02E0300065D300 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D12545361A02E0300065D300 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D12545251A02D7550065D300 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D125452A1A02D7550065D300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D125452B1A02D7550065D300 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D12545351A02E0300065D300 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		D12545361A02E0300065D300 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D125451C1A02D7550065D300 /* Images.xcassets */,
 				D125451E1A02D7550065D300 /* LaunchScreen.xib */,
 				D125450F1A02D7550065D300 /* Supporting Files */,
+				D12545351A02E0300065D300 /* Test.h */,
+				D12545361A02E0300065D300 /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D12545181A02D7550065D300 /* ViewController.m in Sources */,
+				D12545371A02E0300065D300 /* Test.m in Sources */,
 				D12545151A02D7550065D300 /* AppDelegate.m in Sources */,
 				D12545121A02D7550065D300 /* main.m in Sources */,
 			);
